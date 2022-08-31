@@ -1,0 +1,89 @@
+.textual-ref{
+    display: grid;
+    grid-template-columns: 3fr 3fr 4fr;
+    background-color: whitesmoke;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px grey;
+}
+.textual-ref p{
+    padding-top: 20px;
+    font-size: 20px;
+}
+.logo-to-social img{
+    margin-top: 40px;
+    margin-left: 0px;
+    margin-right: 30px;
+    width: 50px;
+}
+.form-to-reach{
+    font-size: 20px;
+    margin-left: 60px;
+    margin-top: 30px;
+    list-style-type: none; 
+}
+.form-to-reach form{
+   margin-top: 10px;
+}
+.flip-card {
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  .flip-card-inner img {
+    border-radius: 75px;
+  }
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    border-radius: 75px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: green;
+    color: white;
+    transform: rotateY(180deg);
+  }
+  input[type=text]{
+    padding: 4px;
+  }
+  #furnituretype{
+    width: 50%;
+    padding: 4px;
+  }
+  input[type=button], input[type=submit], input[type=reset]{
+    padding: 4px;
+    margin-right: 5px;
+  }
+    

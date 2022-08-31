@@ -1,0 +1,92 @@
+#top-ln{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: large;
+    background-color: aliceblue;
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px grey;
+    width: 400px;
+}
+#view-product-butn{
+    width: 40%;
+    font-weight: bold;
+    transition-duration: 0.4s;
+    color: aliceblue;
+    font-weight: bolder;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 1px;
+    border: none;
+    margin-bottom: 10px;
+}
+.categories h4 #head-top{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.categories{
+    margin: 30px;
+}
+.category-1{
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    font-size: 20px;
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+}
+.category-1 .text-cont{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.category-1 img{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px  ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.category-2{
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    font-size: 20px;
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+}
+.category-2 .text-cont{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.category-2 img{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px  ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.category-3{
+    display: grid;
+    grid-template-columns: 2fr 2.5fr 1.5fr;
+    font-size: 20px;
+    margin: 30px;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    box-shadow: 2px 2px 2px grey;
+}
+.category-3 .text-cont{
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.category-3 img{
+    width: 200px;
+    height: 300px;
+    margin-left: 100px  ;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
